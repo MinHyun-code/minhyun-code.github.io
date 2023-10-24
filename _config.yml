@@ -1,15 +1,15 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
+title:              MINLOG
+email:              riven3069@naver.com
+description:        
+author:             MinHyun-Code
 baseurl:            "/blog"
-url:                "https://Minhyun-Code.github.io/blog"
+url:                "https://MinHyun-Code.github.io/blog"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
-instagram_username:  
+twitter_username:   
+github_username:    MinHyun-Code
+facebook_username:  
+instagram_username: an_min96
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
