@@ -2,7 +2,7 @@
 layout: post
 title: "마크다운 문법 정리"
 subtitle: "github blog 시작 !!"
-date: 2023-10-25 T10:30:00
+date: 2023-10-25
 background: '/img/posts/markdown.jpg'
 ---
 
