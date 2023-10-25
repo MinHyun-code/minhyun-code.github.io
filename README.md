@@ -13,5 +13,5 @@
 
 ## 😄ETC
 
-### ⭐ [마크다운 문법 정리](https://minhyun-code.github.io/blog)
+### ⭐ [마크다운 문법 정리](https://minhyun-code.github.io/blog/2023/10/25/markdown_summary.html)
 
