@@ -75,7 +75,6 @@ background: '/img/posts/markdown.jpg'
 ###### h6
 
 <br>
-<br>
 
 ## 텍스트
 
@@ -108,6 +107,8 @@ background: '/img/posts/markdown.jpg'
 ```
 
 ~~취소된 텍스트입니다~~
+
+<br>
 
 ### 4. 밑줄
 
@@ -143,20 +144,6 @@ background: '/img/posts/markdown.jpg'
 <br>
 
 ## 코드
-
-```
-```c++
-#include <iostream>
-using namespace std;
-
-int main()
-{
-cout « “Hello World !” « endl; // 안녕!
-}
-```
-```
-
-<br>
 
 ```c++
 #include <iostream>
@@ -222,6 +209,14 @@ cout « “Hello World !” « endl; // 안녕!
 <br>
 
 ## 테이블
+
+```
+|**제목**|레이팅|감상평|
+|:---:|:---:|:---:|
+|복수는 나의 것|⭐⭐⭐⭐⭐|내가|
+|올드 보이|⭐⭐⭐⭐⭐|좋아하는|
+|친절한 금자씨|⭐⭐⭐⭐⭐|박찬욱 영화!|
+```
 
 |**제목**|레이팅|감상평|
 |:---:|:---:|:---:|
