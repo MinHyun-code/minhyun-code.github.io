@@ -8,7 +8,11 @@
 
 ## 😃JAVA
 
-### ⭐ [마크다운 문법 정리](https://minhyun-code.github.io/blog/java/2023/10/26/spring_ioc_di.html)
+### ⭐ [Spring IOC/DI](https://minhyun-code.github.io/blog/java/2023/10/27/spring_ioc_di.html)
+
+### ⭐ [Spring AOP](https://minhyun-code.github.io/blog/java/2023/10/27/spring-aop.html)
+
+### ⭐ [Java 향상된 for문](https://minhyun-code.github.io/blog/java/2023/10/27/java-for.html)
 
 <br>
 <br>

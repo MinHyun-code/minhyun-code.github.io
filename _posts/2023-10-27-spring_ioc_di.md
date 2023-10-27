@@ -3,7 +3,7 @@ layout: post
 title: "Spring IOC/DI"
 subtitle: "Spring 핵심 요소 IOC/DI 정리"
 category: "java"
-date: 2023-10-26
+date: 2023-10-27
 background: '/img/posts/spring.png'
 ---
 
