@@ -25,3 +25,6 @@ plugins:
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
 
 category_list: [java, javascript, sql, linux, windows, etc]
+
+# Code highlighter
+highlighter: rouge

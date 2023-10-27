@@ -146,13 +146,11 @@ background: '/img/posts/markdown.jpg'
 
 ## 코드
 
-```c++
-#include <iostream>
-using namespace std;
-
-int main()
-{
-cout « “Hello World !” « endl; // 안녕!
+```java
+@Component
+public class SampleController {
+    @Autowired
+    private SampleRepository sampleRepository;
 }
 ```
 
