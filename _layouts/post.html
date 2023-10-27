@@ -19,7 +19,14 @@ layout: default
             {% endif %}
             <span class="meta">Posted by
               <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
-              on {{ page.date | date: '%Y.%m.%d' }}
+              on {{ page.date | date: '%Y.%m.%d' }}   
+            </span>
+            <span class="meta" style="margin-top: 30px;">
+              {% if page.category %} 
+                <a href="/blog/{{ page.category }}.html" style="color: black; background-color: white; padding: 5px 5px; border-radius: 5px; font-weight: bold; border: 2px solid black;">
+                  {{ page.category }}
+                </a> 
+              {% endif %} 
             </span>
           </div>
         </div>

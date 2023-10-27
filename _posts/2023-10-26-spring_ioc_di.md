@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "마크다운 문법 정리"
-subtitle: "github blog 시작 !!"
-category: "etc"
-date: 2023-10-25
-background: '/img/posts/markdown.jpg'
+title: "Spring IOC/DI"
+subtitle: "Spring 핵심 요소 IOC/DI 정리"
+category: "java"
+date: 2023-10-26
+background: '/img/posts/spring.png'
 ---
 
 ## 중첩 구조
