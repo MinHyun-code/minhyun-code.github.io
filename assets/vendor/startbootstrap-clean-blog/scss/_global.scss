@@ -542,8 +542,9 @@ img::-moz-selection {
   .markdown-body blockquote {
     margin: 0;
     padding: 0 1em;
-    color: var(--color-fg-muted);
-    border-left: .25em solid var(--color-border-default);
+    color: #8e1519;
+    font-weight: bold;
+    border-left: .25em solid #8e1519;
   }
   
   .markdown-body ul,
