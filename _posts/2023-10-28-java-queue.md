@@ -7,7 +7,7 @@ date: 2023-10-28
 background: '/img/posts/codeImg.jpg'
 ---
 
-# Queue
+# Queue 
 
 데이터를 일시적으로 쌓아두기 위한 `자료구조`로 `FIFO`의 형태
 
