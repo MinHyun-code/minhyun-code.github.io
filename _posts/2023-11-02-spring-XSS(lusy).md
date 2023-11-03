@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "lucy-xss-servlet-filter로 XSS 예방"
-subtitle: "취약점 보완"
+subtitle: "취약점 점검"
 category: "java"
 date: 2023-11-02
 background: '/img/posts/codeImg.jpg'
