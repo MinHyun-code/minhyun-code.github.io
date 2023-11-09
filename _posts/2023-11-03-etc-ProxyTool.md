@@ -28,7 +28,7 @@ background: '/img/posts/codeImg.jpg'
 **Temporary project, User Burp defaults 선택하여 진행**
 
 ![proxyTool](/blog/img/posts/proxyTool1.png)
-
+ 
 <br>
 
 ![proxyTool](/blog/img/posts/proxyTool2.png)
