@@ -41,7 +41,7 @@ background: '/img/posts/codeImg.jpg'
 ```xml
 <dependency>
   <groupId>com.navercorp.lucy</groupId>
-  <artifactId>lucy-xss-servlet</artifactId>
+  <artifactId>lucy-xss-servlet</artifactId> 
   <version>2.0.1</version>
 </dependency>
 ```
