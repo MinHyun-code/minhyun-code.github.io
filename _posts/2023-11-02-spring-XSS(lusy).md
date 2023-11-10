@@ -7,8 +7,6 @@ date: 2023-11-02
 background: '/img/posts/codeImg.jpg'
 ---
 
-`추후에 사용하게 되면 업데이트 예정`
-
 <br>
 <br>
 
@@ -166,6 +164,49 @@ JSP 태그 또는 el 태그로 변수를 출력하는 경우
 
 사용하면 스크립트가 실행되지 않고 텍스트로 입력되는 것을 확인할 수 있다.
 
+<br>
+<br>
+
+## ⭐⭐⭐ 중요 ⭐⭐⭐ 
+
+>1. json 데이터는 자동으로 치환을 안해주므로 XssPreventer.unescape(변수) 또는 XssPreventer.escape(변수)를 사용하여 치환
+>
+>2. 에디터 사용 시, 에디터가 자동으로 치환하는지 확인
+
+
+- 만약 치환을 한다면, lucy-xss-servlet-filter-rule.xml 설정
+```xml
+    <global>
+        <params>
+            <param name="변수명" useDefender="false"/>
+        </params>
+    </global>
+```
+
+<br>
+
+- 프록시 도구로 파라미터 수정할 경우가 있으므로, 에디터가 치환한 파라미터 다시 역치환 <br>
+(프록시 도구로 추가한 파라미터는 치환이 적용되지 않으므로 일치시키게 하기 위해)
+- 역치환 후 다시 치환하여 DB에 저장
+
+## `⭐문제 발생⭐`
+
+> 이미지도 태그로 나옴 ..
+
+### 해결방법
+
+1. pom.xml에 Jsoup dependency 추가
+
+2. 아래 소스 적용 (화이트리스트에 포함된 것들을 제외한 태그는 삭제 + 이미지 주소는 "http://localhost", .preserveRelativeLinks(true) 추가해야 가져온다 ..)
+
+```java
+String safe_value = Jsoup.clean(origin, "http://localhost", 
+                          Whitelist.relaxed()
+                                   .preserveRelativeLinks(true)
+                                   .addAttributes("src", "width", "height")
+                                   .addAttributes("span", "style")
+                                   .addProtocols("src", "https", "http"));
+```
 
 <br>
 <br>
