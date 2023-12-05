@@ -2,7 +2,7 @@
 
 ## 😀URL
 
-### ⭐ [메인 페이지](https://minhyun-code.github.io/blog/category/)
+### ⭐ [메인 페이지](https://minhyun-code.github.io/blog/)
 
 <br>
 
