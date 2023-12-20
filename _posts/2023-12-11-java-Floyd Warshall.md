@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "플루이드-워셜"
+title: "플루이드 - 워셜"
 subtitle: "알고리즘"
 category: "java"
 date: 2023-12-11
