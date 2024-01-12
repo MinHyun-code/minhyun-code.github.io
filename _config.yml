@@ -24,7 +24,7 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
 
-category_list: [java, javascript, sql, aws, linux, windows, blog, etc]
+category_list: [java, algorithm, javascript, vue.js, sql, aws, linux, windows, blog, etc]
 
 # Code highlighter
 highlighter: rouge

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "플루이드 - 워셜"
-subtitle: "알고리즘"
-category: "java"
+title: "Floyd Warshall - 최단 경로"
+subtitle: "Floyd Warshall"
+category: "algorithm"
 date: 2023-12-11
 background: '/img/posts/codeImg.jpg'
 ---

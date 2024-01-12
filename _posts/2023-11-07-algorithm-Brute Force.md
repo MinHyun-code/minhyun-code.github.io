@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "완전 탐색, 브루트 포스"
-subtitle: "알고리즘"
-category: "java"
+title: "Brute Force - 완전 탐색"
+subtitle: "Brute Force"
+category: "algorithm"
 date: 2023-11-07
 background: '/img/posts/codeImg.jpg'
 ---

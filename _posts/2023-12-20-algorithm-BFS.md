@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "BFS - 너비 우선 탐색"
-subtitle: "알고리즘"
-category: "java"
+subtitle: "Breadth-First Search"
+category: "algorithm"
 date: 2023-12-20
 background: '/img/posts/codeImg.jpg'
 ---
