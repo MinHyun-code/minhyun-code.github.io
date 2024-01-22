@@ -42,15 +42,17 @@ background: '/img/posts/codeImg.jpg'
 
 1. 서버 접속 후 MINLOG 폴더로 이동
 
-2. `git pull origin main`
+2. `jobs`, `jps`로 구동되는지 확인 - `kill PID`로 제거
 
-3. `./gradlew bootWar`
+3. `rm -r build` - 기존 build 파일 제거
 
-4. /MINLOG/build/libs 폴더로 이동
+4. `git pull origin main` - 최신 소스 가져오기
 
-5. `nohup java -jar 빌드된 War 명`
+5. `./gradlew bootWar` - 빌드
 
-6. `jobs`로 구동되는지 확인
+6. /MINLOG/build/libs 폴더로 이동
+
+7. `nohup java -jar 빌드된 War 명 &` - jar 파일 실행
 
 <br> 
 <br> 
