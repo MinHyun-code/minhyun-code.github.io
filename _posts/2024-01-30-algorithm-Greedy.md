@@ -20,6 +20,17 @@ background: '/img/posts/codeImg.jpg'
 - 다익스트라 알고리즘의 경우 그리디 알고리즘이지만 암기가 필요
 - 창의력을 요구하는 문제 유형
 - 대표적으로 거스름돈 문제가 있음
+    
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
 
 <br> 
 <br> 

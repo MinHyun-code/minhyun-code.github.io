@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "이분 탐색 (Binary Search)"
-subtitle: "자료구조"
-category: "java"
+title: "Binary Search - 이분 탐색"
+subtitle: "Binary Search"
+category: "algorithm"
 date: 2023-10-30
 background: '/img/posts/codeImg.jpg'
 ---
