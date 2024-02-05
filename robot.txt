@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://minhyun-code.github.io/blog/sitemap.xml
