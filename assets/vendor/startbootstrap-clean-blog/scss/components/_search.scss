@@ -2,132 +2,123 @@
    SEARCH
    ========================================================================== */
 
-   .layout--search {
-    .archive__item-teaser {
-      margin-bottom: 0.25em;
-    }
+  .container_search {
+    background-color:rgba(0,0,0,.3); 
+    //배경색과 투명도로 살짝 어둡지만 투명한 배경
+    //허공에 붕 떠있는 느낌을 주고 싶으면 안넣어도 무방
+    justify-content:center; //수평 중앙정렬
+    align-items:center;     //수직 중앙정렬
+    position:fixed;         // 포지션 픽스, 화면이 스크롤되더라도 고정되기 위함
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;               //모든 방향에 0을 주면 화면에 꽉차게 됩니다.
+    display:none; 
+    //이벤트가 발생할 때 띄우기 위해 숨김
+    //처음부터 보이게 하는 상황이라면 display:flex;
+    padding:15px; 
+    //반응형의 경우 padding이 없으면 박스가 화면에 붙어서 안이뻐짐
   }
-  
-  .search__toggle {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    //height: $nav-toggle-height;
-    border: 0;
-    outline: none;
-    // color: $primary-color;
-    background-color: transparent;
-    cursor: pointer;
-    -webkit-transition: 0.2s;
-    transition: 0.2s;
-  
-    // &:hover {
-    //   color: mix(#000, $primary-color, 25%);
-    // }
+
+  .search-bar{
+    background-color: #F7CAC9;
+    width: 50%;
+    height: 80vh;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    overflow: auto;
   }
-  
-  .search-icon {
-    width: 100%;
-    height: 100%;
+
+  .search-bar ul {
+    margin-top: 40px;
   }
-  
-  .search-content {
-    display: none;
-    visibility: hidden;
-    padding-top: 1em;
-    padding-bottom: 1em;
-  
-    &__inner-wrap {
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      padding-left: 1em;
-      padding-right: 1em;
-    //   -webkit-animation: $intro-transition;
-    //   animation: $intro-transition;
-      -webkit-animation-delay: 0.15s;
-      animation-delay: 0.15s;
-  
-    //   @include breakpoint($x-large) {
-    //     max-width: $max-width;
-    //   }
-  
-    }
-  
-    &__form {
-      background-color: transparent;
-    }
-  
-    .search-input {
-      display: block;
-      width: 1000px;
-      margin-bottom: 0;
-      padding: 0;
-      border: none;
-      outline: none;
-      box-shadow: none;
-      background-color: transparent;
-    //   font-size: $type-size-3;
-  
-    //   @include breakpoint($large) {
-    //     font-size: $type-size-2;
-    //   }
-  
-    //   @include breakpoint($x-large) {
-    //     font-size: $type-size-1;
-    //   }
-    }
-  
-    &.is--visible {
-      display: block;
-      visibility: visible;
-  
-      &::after {
-        content: "";
-        display: block;
-      }
-    }
-  
-    .results__found {
-      margin-top: 0.5em;
-    //   font-size: $type-size-6;
-    }
-  
-    .archive__item {
-      margin-bottom: 2em;
-  
-    //   @include breakpoint($large) {
-    //     width: 75%;
-    //   }
-  
-    //   @include breakpoint($x-large) {
-    //     width: 50%;
-    //   }
-    }
-  
-    .archive__item-title {
-      margin-top: 0;
-    }
-  
-    .archive__item-excerpt {
-      margin-bottom: 0;
-    }
+
+  .search-bar ul li {
+    list-style: none;
+    padding: 5px 0;
+    text-align: left;
   }
-  
-  /* Algolia search */
-  
-  .ais-search-box {
-    max-width: 100% !important;
-    margin-bottom: 2em;
-  }
-  
-  .archive__item-title .ais-Highlight {
-    // color: $primary-color;
-    font-style: normal;
-    text-decoration: underline;
-  }
-  
-  .archive__item-excerpt .ais-Highlight {
-    // color: $primary-color;
-    font-style: normal;
-    font-weight: bold;
-  }
+
+  .search {
+    &__container {
+        padding-top: 64px;
+    }
+    
+    &__title {
+        font-size: 22px;
+        font-weight: 900;
+        text-align: center;
+        color: #ff8b88;
+    }
+    
+    &__input {
+        width: 90%;
+        padding: 12px 24px;
+
+        background-color: transparent;
+        transition: transform 250ms ease-in-out;
+        font-size: 14px;
+        line-height: 18px;
+        
+        color: #575756;
+        background-color: transparent;
+/*         background-image: url(http://mihaeltomic.com/codepen/input-search/ic_search_black_24px.svg); */
+ 
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-size: 18px 18px;
+        background-position: 95% center;
+        border-radius: 50px;
+        border: 1px solid #575756;
+        transition: all 250ms ease-in-out;
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        
+        &::placeholder {
+            color: color(#575756 a(0.8));
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+        
+        &:hover,
+        &:focus {
+            padding: 12px 0;
+            outline: 0;
+            border: 1px solid transparent;
+            border-bottom: 1px solid #575756;
+            border-radius: 0;
+            background-position: 100% center;
+        }
+    }
+}
+
+.credits {
+    &__container {
+        margin-top: 24px;
+    }
+    
+    &__text {
+        text-align: center;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    
+    &__link {
+        color: #ff8b88;
+        text-decoration: none;
+        transition: color 250ms ease-in;
+        
+        &:hover,
+        &:focus {
+            color: color(#ff8b88 blackness(+25%));
+        }
+    }
+}

@@ -1,6 +1,7 @@
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="{{"/assets/vendor/startbootstrap-clean-blog/js/scripts.js" | relative_url }}"></script>
+<script src="{{"/assets/vendor/startbootstrap-clean-blog/js/simple-jekyll-search.js" | relative_url }}" type="text/javascript"></script>
 
 <script src="{{"/assets/scripts.js" | relative_url }}"></script>
 
@@ -80,5 +81,15 @@
     $('#name').focus(function () {
       $('#success').html('');
     });
+
+    function test() {
+          console.log('타나 ?');
+          console.log($('#container_search'));
+          if ($('#container_search').css('display') == 'block') {
+              $('#container_search').css('display', 'none');
+          } else {
+              $('#container_search').css('display', 'block');
+          }
+        }
   </script>
 {% endif %}

@@ -1,0 +1,31 @@
+<div class="container_search" id="container_search">
+  <div id="search-bar" class="search-bar search">
+    <div class="search-content search">
+      <input id="search-input" class="search__input search" type="text" placeholder="Search" />
+    </div>
+      <ul id="results-container" class="search"></ul>
+  </div>
+</div>
+
+<script type="text/javascript">
+SimpleJekyllSearch({
+     searchInput: document.getElementById('search-input'),
+     resultsContainer: document.getElementById('results-container'),
+     json: '/blog/search.json',
+     searchResultTemplate: '<li class="search"><a href="{url}" title="{desc}" target="_blank">{title}</a></li>',
+     noResultsText: '검색결과가 존재하지 않습니다.',
+     limit: 10000,
+     fuzzy: false,
+     exclude: ['Welcome']
+});
+
+document.querySelector("#container_search").addEventListener("click", function(e) {
+    if ($('#container_search').css('display') == 'block') {
+      if(!$(e.target).hasClass('search')) {
+        $('#search-input').val(null);
+        $('#container_search').css('display', 'none');
+      }
+    }
+})
+
+</script>

@@ -12,6 +12,9 @@
           <a class="nav-link" href="{{"/" | relative_url }}">Home</a>
         </li>
         <li class="nav-item">
+          <a onclick="searchBoxToggle()" style="cursor: pointer;">Search</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="{{ "/posts" | relative_url }}">Posts</a>
         </li>
         <li class="nav-item">
@@ -22,5 +25,12 @@
   </div>
 </nav>
 
-
-
+<script type="text/javascript">
+        function searchBoxToggle() {
+          if ($('#container_search').css('display') == 'block') {
+              $('#container_search').css('display', 'none');
+          } else {
+              $('#container_search').css('display', 'block');
+          }
+        }
+</script>
