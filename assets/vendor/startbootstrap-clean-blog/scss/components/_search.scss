@@ -17,11 +17,10 @@
     //이벤트가 발생할 때 띄우기 위해 숨김
     //처음부터 보이게 하는 상황이라면 display:flex;
     padding:15px; 
-    //반응형의 경우 padding이 없으면 박스가 화면에 붙어서 안이뻐짐
   }
 
   .search-bar{
-    background-color: #F7CAC9;
+    background-color: #ffffff;
     width: 50%;
     height: 80vh;
     margin: 0 auto;
@@ -34,11 +33,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 999;
-    overflow: auto;
+    border-radius: 20px 20px 20px 20px;
   }
 
   .search-bar ul {
     margin-top: 40px;
+    overflow: auto;
   }
 
   .search-bar ul li {
@@ -48,6 +48,9 @@
   }
 
   .search {
+
+    font-size: 16px;
+
     &__container {
         padding-top: 64px;
     }
