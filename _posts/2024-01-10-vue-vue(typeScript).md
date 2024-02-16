@@ -7,6 +7,11 @@ date: 2024-01-10
 background: '/img/posts/codeImg.jpg'
 ---
 
+> Vue3로 바뀌면서 ref의 역할이 바뀜
+> 
+> Vue2 : Dom 또는 컴포넌트를 가리키는 속성<br>
+> Vue3 : reactive reference를 의미 (반응형 데이터)
+
 **`Vue2 data() 와 ref()`**
 
 ```vue
