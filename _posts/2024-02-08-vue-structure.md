@@ -74,7 +74,7 @@ export default {
 <br>
 
 
-<details>
+<details open="open">
 <summary>참고 링크</summary>
 <div markdown="1">
 <https://any-ting.tistory.com/39><br>

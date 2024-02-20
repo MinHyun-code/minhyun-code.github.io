@@ -195,7 +195,7 @@ var foo() = function() {
 <br>
 
 
-<details>
+<details open="open">
 <summary>참고 링크</summary>
 <div markdown="1">
 <https://80000coding.oopy.io/e1721710-536f-43f2-823b-663389f5fbfa>

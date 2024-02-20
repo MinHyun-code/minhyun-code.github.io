@@ -49,5 +49,20 @@ background: '/img/posts/codeImg.jpg'
 
 `$ sudo ln -sf /usr/share/zoneinfo/Asia/Seoul /etc/localtime` 로 KST로 수정
 
+만약 위 작업을 하여도 되지 않는다면
+
+<br> 
+
+**한번 더 구글링**
+
+<br>
+
+```java
+@Scheduled(cron = "0 0 18 * * *", zone = "Asia/Seoul")
+```
+
+위와 같이 Timezone을 직접 설정해주자.
+
+
 > 리눅스 시간은 /etc/localtime 설정 파일의 내용에 따라서 시스템 시각이 바뀜
 

@@ -89,7 +89,7 @@ background: '/img/posts/codeImg.jpg'
 <br>
 
 
-<details>
+<details open="open">
 <summary>참고 링크</summary>
 <div markdown="1">
 <https://lee-automation-lab.tistory.com/entry/IT%EA%B8%B0%EC%B4%88%EC%A7%80%EC%8B%9D-WEBWAS-%EB%9E%80WEB-WAS-%EB%8F%99%EC%9E%91-%EB%B0%A9%EC%8B%9D>
