@@ -14,7 +14,7 @@ background: '/img/posts/codeImg.jpg'
 
 # DFS (Depth-First Search)
 
-하나의 정점으로부터 시작하여 차례대로 모든 정점을 한 번씩 방문하는 방법
+`다음 분기로 넘어가기 전에 해당 분기를 완벽하게 탐색하는 방식`
 
 Ex. 다른 정점으로 갈 수 있는지, 서로 연결되어 있는지
 
