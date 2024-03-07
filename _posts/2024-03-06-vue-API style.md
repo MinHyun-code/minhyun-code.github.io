@@ -44,11 +44,12 @@ export default {
 }
 </script>
 
-
+{% raw %}
 <!-- /는 지워서 테스트 -->
 <template>
-  <button @click="increment">숫자 세기: {/{ count }}</button>
+  <button @click="increment">숫자 세기: {{ count }}</button>
 </template>
+{% endraw %}
 
 ```
 
@@ -89,9 +90,11 @@ onMounted(() => {
 </script>
 
 <!-- /는 지워서 테스트 -->
+{% raw %}
 <template>
-  <button @click="increment">숫자 세기: {/{ count }}</button>
+  <button @click="increment">숫자 세기: {{ count }}</button>
 </template>
+{% endraw %}
 ```
 
 <br>
@@ -100,3 +103,13 @@ onMounted(() => {
 
 **`Composition API + SFC (단일파일 컴포넌트)를 사용하자 !`**
 
+
+<br>
+<br>
+<br>
+
+<details open="open">
+<summary>참고 링크</summary>
+<div markdown="1">
+<https://v3-docs.vuejs-korea.org/>
+<div>
