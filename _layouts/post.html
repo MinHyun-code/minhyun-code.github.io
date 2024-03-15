@@ -59,3 +59,80 @@ layout: default
       </div>
     </div>
   </div>
+
+  <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() {
+    const headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+    const tagButtonsContainer = document.createElement('div');
+    tagButtonsContainer.id = 'tagButtons';
+    document.body.appendChild(tagButtonsContainer);
+
+    let count = 0; // 먼저 나온 제목의 개수를 세기 위한 변수
+
+    headings.forEach(function(heading) {
+        if (count >= 2) { // 먼저 나온 제목의 개수가 2개 이상이면 버튼을 생성
+            const button = document.createElement('button');
+            button.textContent = heading.textContent;
+            button.addEventListener('click', function() {
+                scrollToHeading(heading);
+            });
+            tagButtonsContainer.appendChild(button);
+        }
+        count++;
+    });
+
+    function scrollToHeading(heading) {
+        const yOffset = -80; // 화면 상단에서 떨어진 거리 조정
+        const y = heading.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+    }
+
+    window.addEventListener('scroll', function() {
+        if (window.scrollY > 550) { 
+          tagButtonsContainer.classList.add('fixed');
+        } else {
+          tagButtonsContainer.classList.remove('fixed');
+        }
+      });
+});
+  </script>
+
+  <style>
+  #tagButtons {
+    top: 100px;
+    right: 100px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  #tagButtons button {
+    display: block;
+    background-color: #f4f4f4;
+    margin-bottom: 10px;
+    border: none;
+    transition: box-shadow 0.3s;
+  }
+  #tagButtons button:hover {
+    background-color: #f0f0f0;
+  }
+  #tagButtons button:active {
+    transform: translateY(1px);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  }
+  .fixed {
+    position: fixed;
+    animation: fadeInDown 0.5s;
+  }
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
