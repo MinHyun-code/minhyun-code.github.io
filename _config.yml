@@ -4,6 +4,7 @@ description:
 author:             MinHyun-Code
 baseurl:            "/blog"
 url:                "https://minhyun-code.github.io/blog"
+temp_url:           "https://minhyun-code.github.io"
 asset_url:          /blog/assets
 
 # Social Profiles
