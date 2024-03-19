@@ -23,7 +23,7 @@ background: '/img/posts/codeImg.jpg'
 
 ```javascript
 $.get('url 주소/products/1', function(response) {
-// ...
+// ... 
 });
 ```
 
