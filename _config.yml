@@ -2,10 +2,9 @@ title:              MINLOG
 email:              riven3069@naver.com
 description:        
 author:             MinHyun-Code
-baseurl:            "/blog"
-url:                "https://minhyun-code.github.io/blog"
-temp_url:           "https://minhyun-code.github.io"
-asset_url:          /blog/assets
+baseurl:            ""
+url:                "https://minhyun-code.github.io"
+asset_url:          /assets
 
 # Social Profiles
 twitter_username:   
