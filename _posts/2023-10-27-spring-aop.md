@@ -15,7 +15,7 @@ background: '/img/posts/spring.png'
 
 반복해서 쓰는 코드들을 발견할 수 있는데 이 부분이 `흩어진 관심사(Crosscutting Concerns)`라 부른다.
 
-![aspect](/blog/img/posts/aspect.png)
+![aspect](/img/posts/aspect.png)
 
 1. 흩어진 관심사를 `Aspect`로 모듈화하고 
 2. 핵심적인 비즈니스 로직에서 `분리하여 재사용`하겠다는 것이 AOP의 취지

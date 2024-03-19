@@ -57,7 +57,7 @@ getData().then(function(resolvedData) {
 
 <br>
 
-![alt text](/blog/img/posts/promise.svg)
+![alt text](/img/posts/promise.svg)
 프로미스 처리 흐름 - 출처 : MDN
 
 <br>

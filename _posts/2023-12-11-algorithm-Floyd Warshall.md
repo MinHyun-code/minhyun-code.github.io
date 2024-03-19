@@ -27,17 +27,17 @@ background: '/img/posts/codeImg.jpg'
 
 ## 구현 순서
 
-![aspect](/blog/img/posts/Floyd Warshall1.png)
+![aspect](/img/posts/Floyd Warshall1.png)
 
 **1 . 0개의 간선을 거치는 경우 : 자기 자신으로 가는 경우(0)를 제외하고 모두 가장 큰 값(INF) 로 설정**
 
-![aspect](/blog/img/posts/Floyd Warshall2.png)
+![aspect](/img/posts/Floyd Warshall2.png)
 
 <br>
 
 **2 . 1개의 간선을 거치는 경우 : 최소 비용인 것을 선택**
 
-![aspect](/blog/img/posts/Floyd Warshall3.png)
+![aspect](/img/posts/Floyd Warshall3.png)
 
 <br>
 
@@ -49,7 +49,7 @@ background: '/img/posts/codeImg.jpg'
 
 <br> 
 
-![aspect](/blog/img/posts/Floyd Warshall3.png)
+![aspect](/img/posts/Floyd Warshall3.png)
 
 <br>
 <br>

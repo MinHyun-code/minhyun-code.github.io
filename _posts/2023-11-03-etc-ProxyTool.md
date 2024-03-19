@@ -27,18 +27,18 @@ background: '/img/posts/codeImg.jpg'
 
 **Temporary project, User Burp defaults 선택하여 진행**
 
-![proxyTool](/blog/img/posts/ProxyTool1.png)
+![proxyTool](/img/posts/ProxyTool1.png)
  
 <br>
 
-![proxyTool](/blog/img/posts/ProxyTool2.png)
+![proxyTool](/img/posts/ProxyTool2.png)
 
 <br>
 <br>
 
 **그러면 아래와 같은 화면 출력**
 
-![proxyTool](/blog/img/posts/ProxyTool3.png)
+![proxyTool](/img/posts/ProxyTool3.png)
 
 
 <br>
@@ -46,16 +46,16 @@ background: '/img/posts/codeImg.jpg'
 
 **Proxy 탭 > Options 탭 > 127.0.0.1 주소 설정 확인**
 
-![proxyTool](/blog/img/posts/ProxyTool4.png)
+![proxyTool](/img/posts/ProxyTool4.png)
 
 <br>
 <br>
 
 **인터넷 옵션 > 연결 탭 > LAN 설정**
 
-![proxyTool](/blog/img/posts/ProxyTool5.png)
+![proxyTool](/img/posts/ProxyTool5.png)
 
-![proxyTool](/blog/img/posts/ProxyTool6.png)
+![proxyTool](/img/posts/ProxyTool6.png)
 
 <br>
 <br>
@@ -64,7 +64,7 @@ background: '/img/posts/codeImg.jpg'
 
 Burp 화면에서 네이버 접속하면 아래와 같은 화면 출력
 
-![proxyTool](/blog/img/posts/ProxyTool7.png)
+![proxyTool](/img/posts/ProxyTool7.png)
 
 <br>
 <br>

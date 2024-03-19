@@ -18,7 +18,7 @@ background: '/img/posts/codeImg.jpg'
 
 Ex. 다른 정점으로 갈 수 있는지, 서로 연결되어 있는지
 
-![aspect](/blog/img/posts/dfs.png)
+![aspect](/img/posts/dfs.png)
 
 <br>
 <br>

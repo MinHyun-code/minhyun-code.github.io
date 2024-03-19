@@ -14,7 +14,7 @@ background: '/img/posts/codeImg.jpg'
 
 <br>
 
-![alt text](/blog/img/posts/lifecycle.png)
+![alt text](/img/posts/lifecycle.png)
 
 
 <br>

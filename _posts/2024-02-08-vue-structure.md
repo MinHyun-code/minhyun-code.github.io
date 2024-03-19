@@ -9,7 +9,7 @@ background: '/img/posts/codeImg.jpg'
 
 # 프로젝트 기본 구조
 
-![aspect](/blog/img/posts/vue_structure.png)
+![aspect](/img/posts/vue_structure.png)
 
 <br>
 

@@ -13,7 +13,7 @@ static 키워드를 사용하여 `정적 필드`, `정적 메소드`를 만들 �
 
 <br>
 
-![static](/blog/img/posts/static.png)
+![static](/img/posts/static.png)
 
 <br> 
 

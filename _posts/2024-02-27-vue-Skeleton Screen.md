@@ -279,12 +279,12 @@ h3 {
 
 ### 결과
 
-![alt text](/blog/img/posts/skeleton.png)
+![alt text](/img/posts/skeleton.png)
 
 <br>
 <br>
 
-![alt text](/blog/img/posts/skeleton2.png)
+![alt text](/img/posts/skeleton2.png)
 
 <br> 
 <br> 

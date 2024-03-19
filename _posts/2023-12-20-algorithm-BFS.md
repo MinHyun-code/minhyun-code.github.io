@@ -32,7 +32,7 @@ background: '/img/posts/codeImg.jpg'
 
 ## 로직
 
-![aspect](/blog/img/posts/BFS1.png)
+![aspect](/img/posts/BFS1.png)
 
 <br>
 

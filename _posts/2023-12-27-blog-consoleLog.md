@@ -11,7 +11,7 @@ background: '/img/posts/codeImg.jpg'
 
 <br>
 
-![aspect](/blog/img/posts/consoleLog.png)
+![aspect](/img/posts/consoleLog.png)
 
 <br>
 
