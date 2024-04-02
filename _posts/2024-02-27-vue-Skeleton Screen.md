@@ -4,7 +4,7 @@ title: "Skeleton Screen"
 subtitle: "스켈레톤 스크린"
 category: "vue.js"
 date: 2024-02-27
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/skeleton.png'
 ---
 
 > 데이터를 보여주면서 화면이 조금씩 밀리는 현상이 생겨

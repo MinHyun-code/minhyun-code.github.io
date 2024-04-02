@@ -6,7 +6,9 @@ background: '/img/bg-index.jpg'
 pagination:
     enabled: true
     per_page: 12
+    category: blog
 ---
+
 
 <body>
     <div style="margin-bottom: 20px;">
@@ -33,8 +35,6 @@ pagination:
     </div>
 <br>
 <br>
-
-
 {% if paginator.total_pages > 1 %}
     <div class="pagination">
         {% if paginator.previous_page %}
@@ -52,6 +52,3 @@ pagination:
 {% endif %}
 <br>
 
-<script>
-    
-</script>

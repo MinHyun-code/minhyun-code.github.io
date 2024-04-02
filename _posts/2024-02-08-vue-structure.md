@@ -4,7 +4,7 @@ title: "Vue 프로젝트 기본구조"
 subtitle: "기초 다지기"
 category: "vue.js"
 date: 2024-02-08
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/vue_structure.png'
 ---
 
 # 프로젝트 기본 구조

@@ -6,7 +6,9 @@ background: '/img/bg-index.jpg'
 pagination:
     enabled: true
     per_page: 12
+    category: linux
 ---
+
 
 <body>
     <div style="margin-bottom: 20px;">
@@ -33,25 +35,5 @@ pagination:
     </div>
 <br>
 <br>
-
-
-{% if paginator.total_pages > 1 %}
-    <div class="pagination">
-        {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-        {% else %}
-            <span class="disabled">&laquo; Prev</span>
-        {% endif %}
-
-        {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-        {% else %}
-            <span class="disabled">Next &raquo;</span>
-        {% endif %}
-    </div>
-{% endif %}
 <br>
 
-<script>
-    
-</script>

@@ -4,7 +4,7 @@ title: "console log 깨짐 현상 수정"
 subtitle: "ERROR"
 category: "blog"
 date: 2023-12-27
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/consoleLog.png'
 ---
 
 ## 현상

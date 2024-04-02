@@ -5,11 +5,12 @@
 {% include head.html %}
 
 <body>
-
   {% include navbar.html %}
 
+  {% if page.layout == 'page' %}
+  {% include sidebar.html %}
+  {% endif %}
   {{ content }}
-
   {% include footer.html %}
 
   {% include scripts.html %}

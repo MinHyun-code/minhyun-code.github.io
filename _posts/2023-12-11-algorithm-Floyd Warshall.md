@@ -4,7 +4,7 @@ title: "Floyd Warshall - 최단 경로"
 subtitle: "Floyd Warshall"
 category: "algorithm"
 date: 2023-12-11
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/Floyd Warshall1.png'
 ---
 
 # 플루이드-워셜(Floyd-Warshall)

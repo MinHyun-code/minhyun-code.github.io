@@ -1,0 +1,56 @@
+<div class="sidebar">
+  <div style="margin-bottom: 20px;">
+      <span style="font-weight: bold; font-size: 1.5rem;">Category</span>
+  </div>
+  {% assign category_counts = site.posts | group_by_exp: "post", "post.categories.first" %}
+  {% for category_count in category_counts %}
+      <div style="padding: 4px 0;">
+        {% if category_count.name contains "vue.js" %}
+          <a class="category-title" style="font-weight: bold; font-size: 1rem; cursor: pointer;"  href="/vuejs">{{ category_count.name | upcase }} &nbsp; ({{ category_count.items.size }})</a>
+        {% else %}
+        <a class="category-title" style="font-weight: bold; font-size: 1rem; cursor: pointer;"  href="/{{category_count.name}}">{{ category_count.name | upcase }} &nbsp; ({{ category_count.items.size }})</a>
+        {% endif %}
+
+      </div>
+  {% endfor %}
+</div>
+
+<script>
+</script>
+
+<style>
+
+  /* 카테고리 목록 스타일 */
+  .sidebar {
+    position: absolute; /* 화면에 고정 */
+    top: 650px; /* 상단에 배치 */
+    left: 7vw; /* 좌측에 배치 */
+    width: 14vw; /* 사이드바의 폭 */
+    padding: 20px;
+    user-select: none; /* 텍스트 선택 방지 */
+  }
+  
+  .sidebar ul {
+    list-style: none; /* 목록 기호 제거 */
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    color: #333; /* 링크 색상 */
+    text-decoration: none; /* 링크 밑줄 제거 */
+    display: block;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #000; /* 호버 시 색상 변경 */
+  }
+
+  @media (max-width: 1400px) {
+    .sidebar {
+      display: none;
+    }
+  }
+  </style>

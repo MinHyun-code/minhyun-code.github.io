@@ -4,7 +4,7 @@ title: "DFS - 깊이 우선 탐색"
 subtitle: "Depth-First Search"
 category: "algorithm"
 date: 2024-01-20
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/dfs.png'
 ---
 
 

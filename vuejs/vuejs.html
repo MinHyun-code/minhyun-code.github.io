@@ -3,10 +3,13 @@ layout: page
 title: MINLOG
 description: I will soon become the " best developer "
 background: '/img/bg-index.jpg'
+category: 
 pagination:
     enabled: true
     per_page: 12
+    category: vue.js
 ---
+
 
 <body>
     <div style="margin-bottom: 20px;">
@@ -33,8 +36,6 @@ pagination:
     </div>
 <br>
 <br>
-
-
 {% if paginator.total_pages > 1 %}
     <div class="pagination">
         {% if paginator.previous_page %}
@@ -51,7 +52,3 @@ pagination:
     </div>
 {% endif %}
 <br>
-
-<script>
-    
-</script>
