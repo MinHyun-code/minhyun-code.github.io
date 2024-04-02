@@ -3,10 +3,6 @@ layout: page
 title: MINLOG
 description: I will soon become the " best developer "
 background: '/img/bg-index.jpg'
-pagination:
-    enabled: true
-    per_page: 12
-    category: aws
 ---
 
 
@@ -15,12 +11,8 @@ pagination:
         <span style="font-weight: bold; font-size: 1.5rem;">Posts</span>
     </div>
     <div style="display: flex; flex-wrap: wrap;" id="targetElement">
-        {% assign count = 0 %}
-        {% for post in paginator.posts %}
-          {% assign count = count | plus: 1 %}
-          {% if count > paginator.per_page %}
-            {% break %}
-          {% endif %}
+        {% for post in site.posts %}
+        {% if post.category == 'etc' %}
         <div class="card-custom">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 <img class="img-custom" src="{{ post.background}}"/>
@@ -31,24 +23,10 @@ pagination:
                 <span class="card-body-custom3">{{ post.subtitle }}</span>
             </div>
       </div>
+      {% endif %}
       {% endfor %}
     </div>
 <br>
 <br>
-{% if paginator.total_pages > 1 %}
-    <div class="pagination">
-        {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-        {% else %}
-            <span class="disabled">&laquo; Prev</span>
-        {% endif %}
-
-        {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-        {% else %}
-            <span class="disabled">Next &raquo;</span>
-        {% endif %}
-    </div>
-{% endif %}
 <br>
 

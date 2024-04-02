@@ -32,6 +32,5 @@ gems:
     - jekyll-paginate-v2
 
 pagination:
-    enabled: true
-    sort_field: 'date'
-    sort_reverse: true
+  enabled: true
+  per_page: 12 # 페이지당 게시글 수 설정

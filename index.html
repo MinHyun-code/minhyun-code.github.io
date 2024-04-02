@@ -3,9 +3,7 @@ layout: page
 title: MINLOG
 description: I will soon become the " best developer "
 background: '/img/bg-index.jpg'
-pagination:
-    enabled: true
-    per_page: 12
+listValue: all
 ---
 
 <body>
@@ -13,45 +11,103 @@ pagination:
         <span style="font-weight: bold; font-size: 1.5rem;">Posts</span>
     </div>
     <div style="display: flex; flex-wrap: wrap;" id="targetElement">
-        {% assign count = 0 %}
-        {% for post in paginator.posts %}
-          {% assign count = count | plus: 1 %}
-          {% if count > paginator.per_page %}
-            {% break %}
-          {% endif %}
-        <div class="card-custom">
-            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-                <img class="img-custom" src="{{ post.background}}"/>
-            </a>
-            <a style="font-weight: 600;" class="card-body-custom overflow-ellipsis" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a>
-            <div style="display: flex; justify-content: space-evenly; border-top: 1px solid #e3e3e3;"> 
-                <span class="card-body-custom2">{{ post.date | date: '%Y.%m.%d' }}</span>
-                <span class="card-body-custom3">{{ post.subtitle }}</span>
-            </div>
-      </div>
-      {% endfor %}
+      {% assign count = 0 %}
+      {% for post in site.posts %}
+        {% assign count = count | plus: 1 %}
+        {% if count > 24 %}
+          {% break %}
+        {% endif %}
+      <div class="card-custom">
+          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+              <img class="img-custom" src="{{ post.background}}"/>
+          </a>
+          <a style="font-weight: 600;" class="card-body-custom overflow-ellipsis" href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">{{ post.title }}</a>
+          <div style="display: flex; justify-content: space-evenly; border-top: 1px solid #e3e3e3;"> 
+              <span class="card-body-custom2">{{ post.date | date: '%Y.%m.%d' }}</span>
+              <span class="card-body-custom3">{{ post.subtitle }}</span>
+          </div>
     </div>
+    {% endfor %}
+  </div>
 <br>
 <br>
-
-
-{% if paginator.total_pages > 1 %}
-    <div class="pagination">
-        {% if paginator.previous_page %}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-        {% else %}
-            <span class="disabled">&laquo; Prev</span>
-        {% endif %}
-
-        {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-        {% else %}
-            <span class="disabled">Next &raquo;</span>
-        {% endif %}
-    </div>
-{% endif %}
 <br>
 
 <script>
     
 </script>
+
+<style>
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.card-custom {
+    width: 200px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.04) 0px 4px 16px 0px;
+	overflow: hidden;
+	transition: transform .5s ease, padding .5s ease;
+	margin: 30px 15px;
+}
+
+.card-custom:hover {
+	transform: translate(0,-2px);
+	box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 16px 0px;
+}
+
+.card-body-custom {
+    
+	height: 45px;
+	font-size: 0.9rem;
+	line-height: 1.5;
+	border-top: 1px solid #e3e3e3;
+    padding: 0.6rem;
+	display: flex;
+	justify-content: space-between;
+	-webkit-box-pack: justify;
+    align-items: center;
+}
+
+.card-body-custom2 {
+	height: 30px;
+	font-size: 0.7rem;
+	display: flex;
+	justify-content: space-between;
+	-webkit-box-pack: justify;
+    align-items: center;
+}
+
+.card-body-custom3 {
+	font-size: 0.7rem;
+	display: flex;
+	justify-content: space-between;
+	-webkit-box-pack: justify;
+    align-items: center;
+}
+
+.overflow-ellipsis {
+  white-space: nowrap; /* 줄 바꿈 방지 */
+  overflow: hidden; /* 넘치는 내용 숨김 */
+  text-overflow: ellipsis; /* 넘치는 내용을 "..."으로 표시 */
+  width: 200px; /* 생략된 텍스트를 표시할 너비 */
+}
+
+/* a 태그 스타일 */
+a {
+  text-decoration: none; /* 밑줄 제거 */
+}
+
+/* hover 시 스타일 */
+a:hover {
+  color: inherit; /* 기본 색상 상속 */
+  text-decoration: none; /* hover 시 밑줄 제거 */
+}
+
+
+</style>
+
+

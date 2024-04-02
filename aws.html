@@ -3,10 +3,6 @@ layout: page
 title: MINLOG
 description: I will soon become the " best developer "
 background: '/img/bg-index.jpg'
-pagination:
-    enabled: true
-    per_page: 12
-    category: linux
 ---
 
 
@@ -15,12 +11,8 @@ pagination:
         <span style="font-weight: bold; font-size: 1.5rem;">Posts</span>
     </div>
     <div style="display: flex; flex-wrap: wrap;" id="targetElement">
-        {% assign count = 0 %}
-        {% for post in paginator.posts %}
-          {% assign count = count | plus: 1 %}
-          {% if count > paginator.per_page %}
-            {% break %}
-          {% endif %}
+        {% for post in site.posts %}
+        {% if post.category == 'aws' %}
         <div class="card-custom">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 <img class="img-custom" src="{{ post.background}}"/>
@@ -31,6 +23,7 @@ pagination:
                 <span class="card-body-custom3">{{ post.subtitle }}</span>
             </div>
       </div>
+      {% endif %}
       {% endfor %}
     </div>
 <br>
