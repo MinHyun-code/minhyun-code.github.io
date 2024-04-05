@@ -4,7 +4,7 @@ title: "연관관계"
 subtitle: "Relationship"
 category: "jpa"
 date: 2024-01-29
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/jpa.png'
 ---
 
 # 연관관계

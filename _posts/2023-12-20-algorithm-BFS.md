@@ -4,7 +4,7 @@ title: "BFS - 너비 우선 탐색"
 subtitle: "Breadth-First Search"
 category: "algorithm"
 date: 2023-12-20
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/BFS1.png'
 ---
 
 

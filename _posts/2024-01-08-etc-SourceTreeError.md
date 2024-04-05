@@ -4,7 +4,7 @@ title: "SourceTree private repository 못 가져오는 현상"
 subtitle: "문제 해결"
 category: "etc"
 date: 2024-01-08
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/error.jpg'
 ---
 
 <br>

@@ -12,7 +12,7 @@ background: '/img/bg-index.jpg'
     </div>
     <div style="display: flex; flex-wrap: wrap;" id="targetElement">
         {% for post in site.posts %}
-        {% if post.category == 'sql' %}
+        {% if post.category == 'database' %}
         <div class="card-custom">
             <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
                 <img class="img-custom" src="{{ post.background}}"/>

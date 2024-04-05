@@ -4,7 +4,7 @@ title: "리눅스(linux) UTC, KST 수정"
 subtitle: "Scheduler 작동 X"
 category: "linux"
 date: 2024-02-19
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/clock.png'
 ---
 
 ## 현상

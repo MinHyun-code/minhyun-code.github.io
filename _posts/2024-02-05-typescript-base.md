@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "기초"
+title: "typescript 기초"
 subtitle: "기초다지기"
 category: "typescript"
 date: 2024-02-05
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/typescript.png'
 ---
 
 # Typescript
