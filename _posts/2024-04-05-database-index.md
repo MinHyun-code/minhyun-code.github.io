@@ -85,7 +85,7 @@ ex. (데이터=컬럼의 값, 데이터의 위치)
 
 <br>
 
-[**B Tree 알아보기**](http://localhost:4000/database/2024/04/05/database-B-Tree.html)
+[**B Tree 알아보기**](https://minhyun-code.github.io/database/2024/04/05/database-B-Tree.html)
 
 <br>
 <br>
