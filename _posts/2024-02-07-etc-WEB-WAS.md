@@ -4,7 +4,7 @@ title: "WEB, WAS"
 subtitle: "기초다지기"
 category: "etc"
 date: 2024-02-07
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/web was.png'
 ---
 
 # WEB, WAS 란?

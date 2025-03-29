@@ -4,7 +4,7 @@ title: "Spring IOC/DI"
 subtitle: "Spring 핵심 요소 IOC/DI 정리"
 category: "java"
 date: 2023-10-27
-background: '/img/posts/spring.png'
+background: '/img/posts/ioc di main.png'
 ---
 
 

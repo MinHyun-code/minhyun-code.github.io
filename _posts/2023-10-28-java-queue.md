@@ -4,7 +4,7 @@ title: "Queue"
 subtitle: "자료구조"
 category: "java"
 date: 2023-10-28
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/queue main.png'
 ---
 
 # Queue 

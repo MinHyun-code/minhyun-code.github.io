@@ -4,7 +4,7 @@ title: "프리티어 서버(EC2) 멈춤"
 subtitle: "문제 해결"
 category: "blog"
 date: 2023-12-15
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/freetier ec2.png'
 ---
 
 <br> 

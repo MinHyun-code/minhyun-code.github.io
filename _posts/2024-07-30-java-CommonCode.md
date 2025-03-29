@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "공통코드 관리 방법"
-subtitle: "enum"
+subtitle: "study"
 category: "java"
 date: 2024-07-30
-background: '/img/posts/commoncode.png'
+background: '/img/posts/common code.png'
 ---
 
 ## Enum vs DB

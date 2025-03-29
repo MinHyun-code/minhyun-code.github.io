@@ -4,7 +4,7 @@ title: "lucy-xss-servlet-filter로 XSS 예방"
 subtitle: "취약점 점검"
 category: "java"
 date: 2023-11-02
-background: '/img/posts/xss.png'
+background: '/img/posts/xss main.png'
 ---
 
 <br>

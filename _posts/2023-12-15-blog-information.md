@@ -4,7 +4,7 @@ title: "개발 정보 및 배포"
 subtitle: "INFORMATION"
 category: "blog"
 date: 2023-12-15
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/information.png'
 ---
 
 > 언어 : Java, Html, CSS, MySQL

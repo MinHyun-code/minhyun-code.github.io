@@ -4,7 +4,7 @@ title: "인덱스란?"
 subtitle: "index"
 category: "database"
 date: 2024-04-05
-background: '/img/posts/index.png'
+background: '/img/posts/index main.png'
 ---
 
 # 인덱스란?

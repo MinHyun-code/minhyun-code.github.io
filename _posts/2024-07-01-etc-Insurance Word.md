@@ -4,7 +4,7 @@ title: "보험 용어 정리"
 subtitle: "study"
 category: "etc"
 date: 2024-07-01
-background: '/img/posts/insurance.jpg'
+background: '/img/posts/insurance.png'
 ---
 
 ## 흔히 사용하는 용어

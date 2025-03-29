@@ -4,7 +4,7 @@ title: "Greedy - 탐욕"
 subtitle: "Greedy"
 category: "algorithm"
 date: 2024-01-30
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/greedy main.png'
 ---
 
 

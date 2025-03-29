@@ -4,7 +4,7 @@ title: "Primitive, Reference type"
 subtitle: "기초다지기"
 category: "java"
 date: 2024-04-15
-background: '/img/posts/reference.png'
+background: '/img/posts/Primitive Reference type.png'
 ---
 
 ## Primitive Type (원시 타입)

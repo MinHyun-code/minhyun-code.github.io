@@ -4,7 +4,7 @@ title: "마크다운 문법 정리"
 subtitle: "github blog 시작 !!"
 category: "etc"
 date: 2023-10-25
-background: '/img/posts/markdown.jpg'
+background: '/img/posts/markdown main.png'
 ---
 
 ## 중첩 구조

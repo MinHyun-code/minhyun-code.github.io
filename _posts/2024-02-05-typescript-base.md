@@ -4,7 +4,7 @@ title: "typescript 기초"
 subtitle: "기초다지기"
 category: "typescript"
 date: 2024-02-05
-background: '/img/posts/typescript.png'
+background: '/img/posts/typescript base.png'
 ---
 
 # Typescript

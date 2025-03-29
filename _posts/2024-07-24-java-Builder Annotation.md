@@ -4,7 +4,7 @@ title: "@Builder"
 subtitle: "lombok"
 category: "java"
 date: 2024-07-24
-background: '/img/posts/lombok.jpg'
+background: '/img/posts/builder.png'
 ---
 
 ## Builder 패턴

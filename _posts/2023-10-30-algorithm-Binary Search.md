@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Binary Search - 이분 탐색"
+title: "Binary Search"
 subtitle: "Binary Search"
 category: "algorithm"
 date: 2023-10-30
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/binary search.png'
 ---
 
 # 이분 탐색 (Binary Search) 

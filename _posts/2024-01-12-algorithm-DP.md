@@ -4,7 +4,7 @@ title: "DP - 동적 계획법"
 subtitle: "Dynamic Programming"
 category: "algorithm"
 date: 2024-01-12
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/dp main.png'
 ---
 
 # 동적 계획법

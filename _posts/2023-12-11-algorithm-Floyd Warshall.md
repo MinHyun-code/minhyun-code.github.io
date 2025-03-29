@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Floyd Warshall - 최단 경로"
+title: "Floyd Warshall"
 subtitle: "Floyd Warshall"
 category: "algorithm"
 date: 2023-12-11
-background: '/img/posts/Floyd Warshall1.png'
+background: '/img/posts/Floyd Warshall main.png'
 ---
 
 # 플루이드-워셜(Floyd-Warshall)

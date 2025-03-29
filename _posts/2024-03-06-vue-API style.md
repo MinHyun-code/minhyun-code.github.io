@@ -4,7 +4,7 @@ title: "API style (Options, Composition)"
 subtitle: "API 종류"
 category: "vue.js"
 date: 2024-03-06
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/api style.png'
 ---
 
 

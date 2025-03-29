@@ -4,7 +4,7 @@ title: "영속성 컨텍스트"
 subtitle: "Persistence context"
 category: "jpa"
 date: 2024-01-25
-background: '/img/posts/jpa.png'
+background: '/img/posts/Persistence context.png'
 ---
 
 # 영속성 컨텍스트 (persistence context)

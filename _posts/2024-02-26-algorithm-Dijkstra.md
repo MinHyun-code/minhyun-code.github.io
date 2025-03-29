@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Dijkstra - 최단경로"
-subtitle: "Dijkstra"
+title: "Dijkstra"
+subtitle: "최단경로"
 category: "algorithm"
 date: 2024-02-26
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/Dijkstra.png'
 ---
 
 # 다익스트라

@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "고정 소수점, 부동 소수점 방식"
-subtitle: "floating point"
+subtitle: "study"
 category: "javascript"
 date: 2024-11-18
-background: "/img/posts/floating point.png"
+background: "/img/posts/floating point main.png"
 ---
 
 ## 고정소수점 방식

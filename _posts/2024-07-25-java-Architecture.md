@@ -4,7 +4,7 @@ title: "아키텍처"
 subtitle: "study"
 category: "etc"
 date: 2024-07-25
-background: '/img/posts/Architecture.png'
+background: '/img/posts/Architecture main.png'
 ---
 
 ## 아키텍처 개념

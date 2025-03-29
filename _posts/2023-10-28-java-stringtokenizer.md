@@ -4,7 +4,7 @@ title: "StringTokenizer"
 subtitle: "코딩문제 필수 개념"
 category: "java"
 date: 2023-10-28
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/StringTokenizer.png'
 ---
 
 # StringTokenizer

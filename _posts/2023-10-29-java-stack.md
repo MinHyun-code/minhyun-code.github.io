@@ -4,7 +4,7 @@ title: "Stack"
 subtitle: "자료구조"
 category: "java"
 date: 2023-10-29
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/stack main.png'
 ---
 
 # Stack 

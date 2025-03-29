@@ -4,7 +4,7 @@ title: "promise"
 subtitle: "비동기처리"
 category: "javascript"
 date: 2024-03-19
-background: '/img/posts/promise.svg'
+background: '/img/posts/promise main.png'
 ---
 
 

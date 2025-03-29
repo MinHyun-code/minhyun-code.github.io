@@ -4,7 +4,7 @@ title: "B-Tree"
 subtitle: "index"
 category: "database"
 date: 2024-04-05
-background: '/img/posts/btree.png'
+background: '/img/posts/btree main.png'
 ---
 
 ## B Tree 구조

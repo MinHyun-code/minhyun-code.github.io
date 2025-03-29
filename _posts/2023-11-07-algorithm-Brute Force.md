@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Brute Force - 완전 탐색"
+title: "Brute Force"
 subtitle: "Brute Force"
 category: "algorithm"
 date: 2023-11-07
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/brute force main.png'
 ---
 
 # 완전 탐색, 브루트 포스 (Brute Force)

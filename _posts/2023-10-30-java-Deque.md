@@ -4,7 +4,7 @@ title: "Deque (덱)"
 subtitle: "자료구조"
 category: "java"
 date: 2023-10-30
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/deque main.png'
 ---
 
 # Deque (Double-Ended Queue)

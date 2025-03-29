@@ -4,7 +4,7 @@ title: "&lt;script setup&gt"
 subtitle: "문법"
 category: "vue.js"
 date: 2024-03-07
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/script setup.png'
 ---
 
 

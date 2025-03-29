@@ -4,7 +4,7 @@ title: "생명주기 (Life Cycle)"
 subtitle: "기초 다지기"
 category: "vue.js"
 date: 2024-03-08
-background: '/img/posts/lifecycle.png'
+background: '/img/posts/lifecycle main.png'
 ---
 
 

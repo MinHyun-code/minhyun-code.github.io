@@ -4,7 +4,7 @@ title: "Backtracking - 백트래킹"
 subtitle: "Backtracking"
 category: "algorithm"
 date: 2024-04-05
-background: '/img/posts/backtracking.jpg'
+background: '/img/posts/backtracking main.png'
 ---
 
 # 백트래킹

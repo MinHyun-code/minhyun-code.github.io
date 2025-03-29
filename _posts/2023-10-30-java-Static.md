@@ -4,7 +4,7 @@ title: "정적(static)"
 subtitle: "기초 다지기"
 category: "java"
 date: 2023-10-30
-background: '/img/posts/static.png'
+background: '/img/posts/static main.png'
 ---
 
 # static

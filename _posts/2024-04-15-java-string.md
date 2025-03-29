@@ -4,7 +4,7 @@ title: "String, Builder, Buffer"
 subtitle: "문자열"
 category: "java"
 date: 2024-04-15
-background: '/img/posts/string.png'
+background: '/img/posts/builder buffer.png'
 ---
 
 ## String 사용

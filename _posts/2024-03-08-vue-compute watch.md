@@ -4,7 +4,7 @@ title: "computed vs watch"
 subtitle: "기초 다지기"
 category: "vue.js"
 date: 2024-03-08
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/compute watch.png'
 ---
 
 

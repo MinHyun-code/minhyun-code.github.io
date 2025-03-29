@@ -4,7 +4,7 @@ title: "var, let, const 차이"
 subtitle: "기초다지기"
 category: "javascript"
 date: 2024-02-07
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/var let const.png'
 ---
 
 ## 변수 선언 방식

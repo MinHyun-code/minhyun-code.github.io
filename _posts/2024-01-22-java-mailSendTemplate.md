@@ -4,7 +4,7 @@ title: "Mail 전송 - 템플릿 적용 방법"
 subtitle: "EMAIL"
 category: "java"
 date: 2024-01-22
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/mailSendTemplate.png'
 ---
 
 

@@ -4,7 +4,7 @@ title: "Proxy Tool (Burp Suit)"
 subtitle: "취약점 점검"
 category: "etc"
 date: 2023-11-03
-background: '/img/posts/ProxyTool1.png'
+background: '/img/posts/Burp Suit main.png'
 ---
 
 <br>

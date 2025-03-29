@@ -4,7 +4,7 @@ title: "1,2차원 배열 정렬 (Comparator)"
 subtitle: "알고리즘"
 category: "java"
 date: 2023-11-07
-background: '/img/posts/codeImg.jpg'
+background: '/img/posts/2DimentionArrSort.png'
 ---
 
 # 1,2차원 배열 정렬 (Comparator)
